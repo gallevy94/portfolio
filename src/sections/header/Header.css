@@ -1,5 +1,5 @@
 header {
-    margin-top: 5rem;
+    margin-top: 4rem;
     height: calc(100vh - 5rem);
     display: grid;
     place-items: center;
@@ -15,17 +15,11 @@ header {
 }
 
 .header__profile {
-    /* width: 25rem;
-    height: 22rem;
-    border-radius: 50rem;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 0.5rem; */
-
-    width: 18rem;
-    height: 22rem;
-    border-radius: 50rem;
-    overflow: hidden;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .header__container span {
