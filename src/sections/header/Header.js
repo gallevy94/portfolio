@@ -4,13 +4,13 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header id="header">
+    <section id="header">
       <div className="container header__container">
         <div className="header__profile">
           <img src={HeaderImage} alt="Header Img" />
         </div>
         <h1>Gal Levy</h1>
-        <span>Software Developer</span>
+        <p>Software Developer</p>
         <div className="header__cta">
           <a href="#contact" className="btn primary">
             Let's Talk
@@ -32,7 +32,7 @@ const Header = () => {
           ))}
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 

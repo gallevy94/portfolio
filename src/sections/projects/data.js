@@ -12,7 +12,6 @@ const data = [
     image: Image1,
     title: "Background Remover Website (Fullstack)",
     desc: "A full-stack web application, built with React and Node.js, enabling users to upload and edit images!",
-    demo: "http://egatortutorials.com",
     github: "https://github.com/gallevy94/remove-background",
   },
   {
@@ -21,7 +20,6 @@ const data = [
     image: Image2,
     title: "Amusement Park Website (Frontend)",
     desc: "A front-end web application, built with React, for amusement park ticketing and information!",
-    demo: "http://egatortutorials.com",
     github: "https://github.com/gallevy94/FastRider",
   },
   {
@@ -30,7 +28,6 @@ const data = [
     image: Image3,
     title: "Cinema Application (Android)",
     desc: "Android application developed in Android Studio with Java, featuring an intuitive UI for movie ticket booking and calendar integration!",
-    demo: "http://egatortutorials.com",
     github: "https://github.com/gallevy94/Cinema",
   },
   {
@@ -39,7 +36,6 @@ const data = [
     image: Image4,
     title: "Forest Adventures Application (Android)",
     desc: "Android game, using Android Studio written in Java. Developed as part of an Android course. The game includes animations, 3 levels in ascending difficulty, and 3 types of enemies!",
-    demo: "http://egatortutorials.com",
     github: "https://github.com/gallevy94/ForestAdventures",
   },
   {
@@ -48,7 +44,6 @@ const data = [
     image: Image5,
     title: "Database Project Website (Frontend)",
     desc: "A front-end web application, built with React, rendering a list of clients, enabling users to add new clients and to search for a specific client of their choice!",
-    demo: "http://egatortutorials.com",
     github: "https://github.com/gallevy94/DatabaseProject",
   },
   {
@@ -56,8 +51,7 @@ const data = [
     category: "frontend",
     image: Image6,
     title: "Portfolio Website (Frontend)",
-    desc: "A front-end web application, built with React, my personal website featuring some sections about me, skills, projects, and more!",
-    demo: "http://egatortutorials.com",
+    desc: "A front-end web application, built with React, my website features some sections about me, my skills, my projects, and more!",
     github: "https://github.com/gallevy94/portfolio",
   },
 ];

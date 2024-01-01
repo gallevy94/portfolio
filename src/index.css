@@ -9,16 +9,11 @@
 }
 
 :root {
-  --primary-hue: 270;
-  --black-lightness: 15%;
-  --dark-lightness: 44%;
-  --light-lightness: 94%;
-  --white-lightness: 100%;
   --color-primary: #9dd7bb;
-  --color-white: hsl(0, 5%, var(--white-lightness));
-  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
-  --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  --color-white: #fefefe;
+  --color-light: #ebebeb;
+  --color-black: #2a282d;
+
 
   /* GENERAL CONTAINER VARIABLES */
   --container-width-lg: 76%;
@@ -92,7 +87,7 @@ h6 {
 
 h1 {
   text-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
-  font-size: 3.3rem
+  font-size: 2.6rem
 }
 
 h2 {

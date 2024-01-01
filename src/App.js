@@ -2,12 +2,12 @@ import "./App.css";
 import Navbar from "./sections/navbar/Navbar";
 import Header from "./sections/header/Header";
 import About from "./sections/about/About";
+import Skills from "./sections/skills/Skills";
 import Projects from "./sections/projects/Projects";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 import { useRef, useState, useEffect } from "react";
-import Skills from "./sections/skills/Skills";
 
 function App() {
   const mainRef = useRef();
@@ -48,7 +48,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Skills/>
+      <Skills />
       <Projects />
       <Contact />
       <Footer />

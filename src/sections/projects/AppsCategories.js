@@ -17,7 +17,7 @@ const AppsCategories = ({ categories, onFilterApps }) => {
           category={category}
           onChangeCategory={() => changeCategoryHandler(category)}
           className={`btn cat__btn ${
-            activeCategory == category ? "primary" : "white"
+            activeCategory === category ? "primary" : "white"
           }`}
         />
       ))}
